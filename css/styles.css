@@ -6,15 +6,16 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #000000;
-	background-color: #FFFFFF;
+	font-family: "Avenir Next Bold", "Avenir Light", "Avenir Light Oblique";
+	
+    color: #000000;
+	background-color: #8989898;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #c8a2c8;
+    background-color: #af9ac9;
 }
 
 .resume-main {
@@ -23,7 +24,7 @@ body {
 }
 
 .resume-aside {
-	background-color: #ede1e8;
+	background-color: #ffffff;
 }
 
 /* Styles for lists in the document */
@@ -49,3 +50,42 @@ body {
 	height: 1em;
 	flex-basis: 1.4em;
 }
+.language-level {
+    border: 4px solid #af9ac9; 
+    border-color: #000000 !important;
+    border-radius: 20px; 
+}
+.language-level .language-progress {
+	background-color: #af9ac9 !important;
+	border-radius: 23px; 
+}
+html, body {
+  margin: 5;
+  height: 100%;
+}
+
+.center-line {
+  width: 3px; 
+  height: 388%;
+  background-color: #000000; 
+  position: absolute;
+  left: 71%; 
+  transform: translateX(-50%);
+} 
+
+.left-line {
+  width: 100%; 
+  height: 2px; 
+  background-color: black; 
+  margin-left: 0px;
+}
+
+.text-content {
+  margin-left: 25px; 
+margin-right: 45px
+}
+
+.more-right {
+  margin-left: 25px; 
+}
+
